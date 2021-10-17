@@ -15,6 +15,7 @@ body {
 a {
  text-decoration: none;
  color: white;
+ font-size: 1vw;
 }
 ul, li {
  list-style-type: none;
@@ -25,13 +26,13 @@ p {
 }
 
 img {
-  border-radius: 100px;
+  border-radius: 10px;
   border-color: black;
   display: block;
   width: auto;
   height: auto;
-  max-width: 50%;
-  max-height: 50%;
+  max-width: 75%;
+  max-height: 75%;
   margin: 20px auto;
 }
 
