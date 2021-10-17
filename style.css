@@ -20,14 +20,31 @@ ul, li {
  list-style-type: none;
 }
 
+p {
+  font-size: 2vw;
+}
+
+img {
+  border-radius: 50px;
+}
+
+#titulo {
+  padding-top: 10px;
+  width: 100%;
+  height: 15%;
+}
+
 #esquerda {
   width: 33%;
+  height: 85%;
 }
 #centro {
   width: 33%;
+  height: 85%;
 }
 #direita {
   width: 33%;
+  height: 85%;
 }
 
 #esquerda, #centro, #direita {
@@ -191,7 +208,9 @@ h3 {
  nav ul {
  flex-direction: column;
  }
-
+ .vertical-scrolling {
+   flex-direction: column;
+ }
  nav li {
  margin-top: 1px;
  }
