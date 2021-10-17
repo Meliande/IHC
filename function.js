@@ -6,12 +6,12 @@ $header_top.find('a').on('click', function() {
 });
 
 $('#fullpage').fullpage({
-  sectionsColor: ['#3dcfa1', '#348899', '#ff8b20', '#ff5757', '#ffd03c'],
+  sectionsColor: ['#3dcfa1', '#348899', '#ff8b20', '#ff5757', '#ffd03c', '#3dcfa1', '#348899', '#ff8b20', '#ff5757', '#ffd03c'],
   sectionSelector: '.vertical-scrolling',
   navigation: true,
   slidesNavigation: true,
   controlArrows: false,
-  anchors: ['firstSection', 'secondSection', 'thirdSection', 'fourthSection', 'fifthSection'],
+  anchors: ['firstSection', 'secondSection', 'thirdSection', 'fourthSection', 'fifthSection', 'sixthSection', 'seventhSection', 'eighthSection', 'ninethSection', 'tenthSection'],
   menu: '#menu',
 
   afterLoad: function(anchorLink, index) {
