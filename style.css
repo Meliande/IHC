@@ -31,9 +31,14 @@ img {
   display: block;
   width: auto;
   height: auto;
-  max-width: 90%;
-  max-height: 90%;
+  max-width: 95%;
+  max-height: 95%;
   margin: 20px auto;
+}
+
+#profile {
+  width: 250px;
+  height: auto;
 }
 
 #video {
