@@ -34,11 +34,15 @@ img {
   max-width: 95%;
   max-height: 95%;
   margin: 20px auto;
-  transition: transform 1s;
+  transition: transform 5s;
 }
 
 span {
   color: white;
+}
+
+#lista {
+  padding: 0.5vw;
 }
 
 #zoom:hover {
@@ -75,6 +79,15 @@ span {
   vertical-align: top;
   width: 30%;
   height: auto;
+}
+
+.hide {
+  opacity: 0;
+  transition: 4s;
+}
+
+.hide:hover {
+  opacity: 1;
 }
 
 .clearfix:before,
