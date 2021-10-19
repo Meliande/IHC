@@ -34,6 +34,15 @@ img {
   max-width: 95%;
   max-height: 95%;
   margin: 20px auto;
+  transition: transform 1s;
+}
+
+span {
+  color: white;
+}
+
+#zoom:hover {
+  transform: scale(2.5);
 }
 
 #profile {
@@ -158,7 +167,7 @@ nav {
  position: fixed;
  top: 70px;
  width: 100%;
-  transition: all 1s;
+ transition: all 1s;
 }
 .open-menu ~ nav {
  opacity: 1;
@@ -174,7 +183,7 @@ nav li {
  flex: 1;
 }
 nav li a {
- font-size: 1vw;
+ font-size: 0.75vw;
  display: block;
  padding: 30px;
  text-align: center;
