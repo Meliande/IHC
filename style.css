@@ -46,7 +46,7 @@ span {
 }
 
 #zoom:hover {
-  transform: scale(2.5);
+  transform: scale(2);
 }
 
 #profile {
@@ -194,6 +194,7 @@ nav ul {
 }
 nav li {
  flex: 1;
+ padding-top: 1vw;
 }
 nav li a {
  font-size: 0.75vw;
