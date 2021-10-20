@@ -21,6 +21,23 @@ ul, li {
  list-style-type: none;
 }
 
+table {
+  padding-top: 1vw;
+  font-size: 1.2vw;
+}
+
+th {
+  background-color: #283593;
+  color: white;
+}
+
+tr {
+  background-color: #b2ebf2;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+}
+
 p {
   font-size: 1.5vw;
 }
