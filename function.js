@@ -24,5 +24,4 @@ $('#fullpage').fullpage({
     }
   },
 
-
 });
